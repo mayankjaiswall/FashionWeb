@@ -80,3 +80,52 @@ body {
     text-align: center;
 
 }
+
+.img1 {
+    background-image: url(Modal1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url(modal2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(Modal3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url(modal4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img5 {
+    background-image: url(new\ modal.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.models {
+    height: 650px;
+    width: 200px;
+    border: 8px solid white;
+    border-radius: 10px;
+    animation: all 0.2s ease-in-out;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.models:hover {
+    width: 300px;
+}
